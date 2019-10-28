@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: 2010-09-09
-Description: Creates 4 AMI (RedHat, AmazonLinux2, Ubuntu and SLES) from custom degraded AMIs. This template creates a user, a group for normal user and an admin group. It outputs the AccessKey and SecretKey for newly created user
+Description: Creates 4 AMI (RedHat, AmazonLinux2, Ubuntu and SLES) from custom degraded AMI. This template creates a user, a group for that user and an admin group. It outputs the AccessKey and SecretKey for newly created user
 
 Parameters:
   KeyName:
